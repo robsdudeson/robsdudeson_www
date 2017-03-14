@@ -1,0 +1,23 @@
+div
+    div(class="text-center main-text main-text-color")
+        h1 Who Am I?
+        h2 #{page.whoAmI}
+        br
+        hr(class="horizontal-line")
+    div(class="text-center main-text main-text-color")
+        h1 Career History
+        each job in page.jobs
+            div
+                h2 #{job.title} - #{job.company}
+                h3 #{job.startDate} - #{job.endDate}
+                h3 #{job.description}
+            br
+        hr(class="horizontal-line")
+    div(class="text-center main-text main-text-color")
+        h1 Education
+        each school in page.schools
+            div
+                h2 #{school.degree}
+                h3 #{school.name}
+                h3 #{school.graduationDate}
+            br

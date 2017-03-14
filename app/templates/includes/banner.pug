@@ -1,0 +1,8 @@
+div(class="jumbotron main-jumbotron")
+    h1(class="text-center main-text main-text-color") Robby Thompson
+    hr(class="horizontal-line")
+    h2(class="text-center main-text main-text-color") Software Engineer
+    if(page.bannerLines)
+        hr(class="horizontal-line")
+        each line in page.bannerLines
+            h3(class="text-center main-text main-text-color") #{line}

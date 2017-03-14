@@ -1,0 +1,31 @@
+.global-background {
+  background-color: #424242;
+}
+.navbar-custom {
+  padding-left: 130px;
+}
+.main-jumbotron {
+  margin-top: -25px;
+  background-color: #000000;
+}
+.main-text {
+  font-family: 'Roboto', sans-serif;
+}
+.main-text-color {
+  color: #babdb6 !important;
+}
+.horizontal-line {
+  width: 15%;
+  background-color: #babdb6;
+  border-top-color: #babdb6 !important;
+}
+label {
+  font-family: 'Roboto', sans-serif;
+  color: #babdb6 !important;
+}
+input {
+  background-color: #424242 !important;
+}
+textarea {
+  background-color: #424242 !important;
+}

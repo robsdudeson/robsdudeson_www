@@ -1,0 +1,26 @@
+{
+	"name" : "www_robsdudeson_com",
+	"version" : "0.0.1",
+	"description" : "www_robsdudeson_com",
+	"main" : "www_robsdudeson_com-app.js",
+	"scripts" : { 
+		"test" : "echo \"Error: no tests specified! configure package.json\" && exit 1"
+	},
+	"repository" : { "url" : "https://code.robsdudeson.com/svn/www_robsdudeson_com" },
+	"keywords" : [
+		"nodejs"
+	],
+	"author" : "robs dudeson",
+	"license" : "MIT",
+	"readmeFilename" : "readme.md",
+	"dependencies" : {
+		"express" : "latest",
+		"body-parser" : "latest",
+		"pug" : "latest",
+		"nodemailer" : "latest",
+		"validator" : "latest"
+	},
+	"devDependencies" : {
+		"less" : "latest"
+	}
+}

@@ -1,0 +1,11 @@
+div
+    nav(class="navbar navbar-inverse navbar-custom",role="navigation")
+        ul(class="nav navbar-nav")
+            each navItem in page.navOpts
+                if(navItem.active)
+                    li(class="active")
+                        a(href=navItem.href) #{navItem.name}
+                            span(class="sr-only") (current)
+                else
+                    li
+                        a(href=navItem.href) #{navItem.name}

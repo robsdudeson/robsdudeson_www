@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title #{page.title}
+        != templateRender(page.styles, options)
+    body(class="global-background")
+        != templateRender(page.navigation, {options, page:page})
+        != templateRender(page.banner, {options, page:page})
+        != templateRender(page.body, {options, page:page})
+        != templateRender(page.footer, options)
+        != templateRender(page.scripts, options)
